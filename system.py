@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 def load_models():
     models = {}
-    model_files = ["heart_disease_model.sav", "diabetes_model.sav", "parkinsons_disease_model.sav", "breast_cancer_model.sav"]
+    model_files = ["Heart_model.sav", "diabetes_model.sav", "Parkinsons_model.sav", "breast_cancer_model.sav"]
     model_dir = '/Users/ahmedmoataz/Documents/project/system/saved_models'
     
     for file in model_files:
